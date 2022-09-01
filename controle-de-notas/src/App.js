@@ -118,7 +118,7 @@ function App() {
                   <td>{n.nota1}</td>
                   <td>{n.nota2}</td>
                   <td>{n.nota3}</td>
-                  <td>{n.media}</td>
+                  <td>{n.media < 7 ? <b className="red">{n.media}</b> : <b>{n.media}</b>}</td> 
                   <td>
                     <button className="btn btn-primary" onClick={() => editar(n.id)}>[editar]</button>
                   </td>
