@@ -134,7 +134,7 @@ function App() {
       
       <footer className='footer'>
         <h2>
-          Feito por: Daniela, João A. e Thomas
+          Feito por: Daniel, João A. e Thomas
         </h2>
       </footer>
     </div>
