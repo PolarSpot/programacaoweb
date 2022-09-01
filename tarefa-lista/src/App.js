@@ -98,6 +98,11 @@ const App = () => {
           </div>
         </div>
       ))}
+      <footer className="footer">
+         <h2>
+            Feito por Daniel João A e Thomas
+         </h2>
+      </footer>
     </div>
   );
 };
