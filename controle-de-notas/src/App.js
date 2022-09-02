@@ -130,7 +130,7 @@ function App() {
       
       <footer className='footer'>
         <h2>
-          Feito por: Daniel, João A. e Thomas
+          Feito por: Daniel, João A, Thomas e Vitor M
         </h2>
       </footer>
     </div>
