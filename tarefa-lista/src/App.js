@@ -7,19 +7,6 @@ const App = () => {
   const [edicao, setEdicao] = React.useState(null);
   const [edTexto, setEdTexto] = React.useState("");
 
-  React.useEffect(() => {
-    const json = localStorage.getItem("tarefas");
-    const loadedTodos = JSON.parse(json);
-    if (loadedTodos) {
-      setTarefas(loadedTodos);
-    }
-  }, []);
-
-  React.useEffect(() => {
-    const json = JSON.stringify(tarefas);
-    localStorage.setItem("tarefas", json);
-  }, [tarefas]);
-
   function handleSubmit(e) {
     e.preventDefault();
 
