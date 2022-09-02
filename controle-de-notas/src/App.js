@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Aluno - Notas</h1>
+      <h1>Controle de Notas</h1>
       <form className="row">
         <div className="col-md-12 mb-3">
           <label className="form-label">Nome</label>
